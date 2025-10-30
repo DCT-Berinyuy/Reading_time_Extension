@@ -25,6 +25,8 @@ function renderReadingTime(article) {
 
 renderReadingTime(document.querySelector("article"));
 
+//Calculate and Insert Reading Time
+
 const observer = new MutationObserver((mutations) => {
   for (const mutation of mutations) {
     // If a new article was added.
